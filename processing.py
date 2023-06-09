@@ -11,18 +11,18 @@ import os
 # from sklearnex import patch_sklearn
 # patch_sklearn()
 
-import pyopencl as cl
+# import pyopencl as cl
 
-def get_devices():
-    platforms = cl.get_platforms()
-    devices = []
-    for platform in platforms:
-        platform_devices = platform.get_devices(device_type=cl.device_type.ALL)
-        devices.extend(platform_devices)
-    return devices
+# def get_devices():
+#     platforms = cl.get_platforms()
+#     devices = []
+#     for platform in platforms:
+#         platform_devices = platform.get_devices(device_type=cl.device_type.ALL)
+#         devices.extend(platform_devices)
+#     return devices
 
-devices = get_devices()
-print(devices)
+# devices = get_devices()
+# print(devices)
 
 
 
