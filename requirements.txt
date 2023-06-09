@@ -1,4 +1,4 @@
-python==3.9
+python
 langchain==0.0.190
 flask_cors
 PyPDF2
