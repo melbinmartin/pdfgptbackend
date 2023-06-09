@@ -1,4 +1,4 @@
-python_version == "3.8"
+
 langchain
 flask_cors
 PyPDF2
