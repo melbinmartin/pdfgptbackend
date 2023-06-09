@@ -1,5 +1,5 @@
-
-langchain
+python==3.9
+langchain==0.0.190
 flask_cors
 PyPDF2
 openai
