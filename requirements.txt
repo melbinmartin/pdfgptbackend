@@ -1,4 +1,4 @@
 flask_cors
-langchain
+pip install --upgrade langchain
 PyPDF2
 openai
